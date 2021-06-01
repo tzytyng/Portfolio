@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fiona's website">
+    <meta name="author" content="Fiona">
+    
+    <title>Fiona Yu</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" href="css/animsition.min.css">
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/tool.js"></script>
+    <script src="js/animsition.min.js"></script>
+
+    <!--Scroll Reveal -->
+<!--     <script src="https://https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js" defer></script>
+    <script src="js/scrollreveal.min.js" defer></script>
+    <script>ScrollReveal({ duration: 1600 });</script> -->
+  
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+   
+    <!-- Fonts -->
+<script>
+  	(function(d) {
+   		 var config = {
+     	 kitId: 'hjv0jad',
+      	scriptTimeout: 3000,
+      	async: true
+   		 },
+   		 h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  	})(document);
+</script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap" rel="stylesheet">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144904447-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144904447-1');
+    </script>
+
+  </head>
+
+  <body>
+    <header id="home-header">
+      <ul>
+        <a href="index.html"><li id="header-fiona">Fiona Yu</li></a>
+        <a href="index.html#sensei"><li id="header-work">Work</li></a>
+        <a href="index.html#contact"><li id="header-contact">Contact</li></a>
+      </ul>
+    </header>
+
+    <div class="home-intro animsition fade-in">
+        <div class="wrapper">
+            <div class="home-intro-w">Product Manager who knows her design &#128526<br>
+            Incoming 2021 Summer Product Management Intern @ Adobe &#128293<br> 
+            Getting my masters at CMU for product development and innovation &#128640<br>
+            
+        </div>
+        </div>
+    </div>
+
+    <div class="home-title" id="sensei"> Projects </div>
+    <div class="home-proj" >
+        <a href="bearing.html">
+        <div class="content-wrapper project-card">
+            <div class="col-left-6">
+                <img src="images/bearing/bearing_index.png">
+            </div><div class="col-right-4">
+                </br>
+                <h2>Bearing.ai</h2>
+                <h3>Designed Bearing's B2B web app that attracted new business partners and drove revenue growth.</h3>
+            </div>
+        </div></a>
+    </div>
+
+    <div class="home-proj" >
+        <a href="workera.html">
+        <div class="content-wrapper project-card">
+            <div class="col-left-6">
+                <img src="images/workera/feedback_index.png">
+            </div><div class="col-right-4">
+                </br>
+                <h2>Workera</h2>
+                <h3>Launched the 1st version of Workera Feedback and reached 13K+ new users and 10K+ returning users every month.</h3>
+            </div>
+        </div></a>
+    </div>
+    
+    <div class="home-proj" >
+        <a href="workera_branding.html">
+        <div class="content-wrapper project-card">
+            <div class="col-left-6">
+                <img src="images/workera/branding_index.png">
+            </div><div class="col-right-4">
+                </br>
+                <h2>Branding for Workera</h2>
+                <h3>Created identities for the Candidates Landing Page and the Enterprise Landing Page.</h3>
+            </div>
+        </div></a>
+    </div>
+
+    <div class="home-proj" >
+        <a href="cuyama-kitchen.html">
+        <div class="content-wrapper project-card">
+            <div class="col-left-6">
+                <img src="images/home-cuyama.png">
+            </div><div class="col-right-4">
+                <h2>Cuyama Kitchen</h2>
+                <h3>An academic project on revitalizing community space for Blue Sky Center - a non-profit organization.</h3>
+            </div>
+        </div></a>
+    </div>
+
+
+    <div class="home-footer" id="contact">
+        <div class="content-wrapper">
+            <div class="footer-col-left-6 hit-me-up">
+                Incoming 2021 Summer Product Management Intern @ Adobe
+                <br>
+                <h3>I would love to connect with you! Hit me up. </h3>
+            </div><div class="footer-col-right-4">
+                <ul class="footer-orange">
+                    <li ><a href="mailto:fionayu0809@gmail.com">Email</a></li> <br>
+                    <li ><a href="https://www.linkedin.com/in/xiaotang-yu" target="_blank">Linkedin</a></li><br>
+                    <li ><a href="FionaYu-Resume.pdf" target="_blank">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        ScrollReveal().reveal('.home-title')
+        ScrollReveal().reveal('.home-proj')
+        ScrollReveal().reveal('.home-footer')
+    </script>
+
+  </body>
+
+</html>
